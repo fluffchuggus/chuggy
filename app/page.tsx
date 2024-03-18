@@ -26,10 +26,8 @@ export default function Home() {
                 <div>
                   Share:
                 </div>
-                <a href="https://twitter.com" className="cursor-pointer">
-                <div className="underline">
+                <a href="https://x.com/SolRedkins" className="self-end underline" target="_blank">
                   Twitter
-                </div>
                 </a>
               </div>
             </div>
@@ -61,28 +59,16 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="flex flex-col w-full">
-                <a href="https://x.com/SolRedkins" className="self-end underline" target="_blank">
-                  Twitter
-                </a>
-                <a href="https://pump.fun">
-                  <div className="text-white font-bold bg-blue-400/80 w-full h-20 rounded-md p-2 m-auto hover:bg-blue-400 transition-all duration-500 cursor-pointer flex flex-col items-center justify-center">
-                    <div className="text-2xl">
-                      Back this project
-                    </div>
+              <a href="https://pump.fun">
+                <div className="text-white font-bold bg-blue-400/80 w-full h-20 rounded-md p-2 m-auto hover:bg-blue-400 transition-all duration-500 cursor-pointer flex flex-col items-center justify-center">
+                  <div className="text-2xl">
+                    Back this project
                   </div>
-                </a>
-              </div>
+                </div>
+              </a>
               
 
-              <div>
-                <div className="max-w-96 h-64 relative m-auto">
-                  <Image src={CartmanBanner} fill alt="cartman banner call us" />
-                </div>
-                <div className="max-w-96 h-64 relative m-auto">
-                  <Image src={ThePlan} fill alt="cartman banner call us" />
-                </div>
-              </div>
+              
 
 
             </div>
@@ -91,6 +77,13 @@ export default function Home() {
               <div>
                 The Washington Redskins we will do absolutely NOTHING for you! Read to find out how!
               </div>
+              <div>
+                <div className="max-w-96 h-64 relative m-auto grow-1">
+                  <Image src={CartmanBanner} fill alt="cartman banner call us" />
+                </div>
+              </div>
+
+              
               <div className="text-3xl">
                 Mission Statement
               </div>
@@ -118,6 +111,14 @@ export default function Home() {
                 <p>
                   Absolutely nothing.
                 </p>
+              </div>
+              <div className="text-3xl">
+                Roadmap
+              </div>
+              <div>
+              <div className="max-w-96 h-64 relative m-auto">
+                <Image src={ThePlan} fill alt="cartman banner call us" />
+              </div>
               </div>
               <div className="text-3xl">
                 FAQ
