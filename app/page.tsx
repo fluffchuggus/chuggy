@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <a href="https://pump.fun">
+              <a href="https://www.pump.fun/6dbnSUvwzY3rJ63sdoftc3KvUK9P6fkhVHt25tbMBeAS">
                 <div className="text-white font-bold bg-blue-400/80 w-full h-20 rounded-md p-2 m-auto hover:bg-blue-400 transition-all duration-500 cursor-pointer flex flex-col items-center justify-center">
                   <div className="text-2xl">
                     Back this project
