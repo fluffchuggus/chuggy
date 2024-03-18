@@ -5,10 +5,6 @@ import RedskinsBanner from "/public/redskins-banner.jpeg"
 import Script from 'next/script'
 import type { Metadata } from 'next'
  
-export const metadata: Metadata = {
-  title: 'Washington Redskins Startup Company',
-  description: 'We promise to deliver absolutely nothing.',
-}
 
 export default function Home() {
   
