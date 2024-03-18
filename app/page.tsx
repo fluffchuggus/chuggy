@@ -10,11 +10,17 @@ export default function Home() {
         Washington Redskins Startup Company
       </div>
       <div className="w-full bg-white rounded-xl shadow-lg px-4 py-6">
-        {/* <div className="flex sm:flex-row flex-col"> */}
         <div className="grid sm:grid-cols-2 grid-cols-1">
             <div className="w-full">
               <div className="w-full h-96 relative">
                 <Image src={RedskinsBanner} fill alt="project banner" className="object-cover rounded-md" />
+                <div className="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/924447524?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{
+                  position:"absolute",
+                  top:0,
+                  left:0,
+                  width:"100%",
+                  height:"100%"
+                  }} title="redskins-trailer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
               </div>
               <div className="flex flex-row sm:gap-3 gap-1 font-semibold justify-end">
                 <div>
