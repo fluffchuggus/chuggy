@@ -13,7 +13,7 @@ export default function Home() {
         <div className="grid sm:grid-cols-2 grid-cols-1">
             <div className="w-full">
               <div className="w-full h-96 relative">
-                <Image src={RedskinsBanner} fill alt="project banner" className="object-cover rounded-md" />
+                {/* <Image src={RedskinsBanner} fill alt="project banner" className="object-cover rounded-md" /> */}
                 <div className="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/924447524?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style={{
                   position:"absolute",
                   top:0,
