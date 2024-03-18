@@ -20,9 +20,11 @@ export default function Home() {
                 <div>
                   Share:
                 </div>
-                <div>
+                <a href="https://twitter.com" className="cursor-pointer">
+                <div className="underline">
                   Twitter
                 </div>
+                </a>
               </div>
             </div>
             <div className="flex flex-col gap-2 sm:px-3 w-full py-2 sm:py-0 row-span-2">
@@ -53,11 +55,19 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-blue-400 w-full h-10 rounded-md p-2 m-auto">
-                <div className="text-white font-bold">
-                  Back this project
-                </div>
+              <div className="flex flex-col w-full">
+                <a href="https://x.com/SolRedkins" className="self-end underline" target="_blank">
+                  Twitter
+                </a>
+                <a href="https://pump.fun">
+                  <div className="text-white font-bold bg-blue-400/80 w-full h-20 rounded-md p-2 m-auto hover:bg-blue-400 transition-all duration-500 cursor-pointer flex flex-col items-center justify-center">
+                    <div className="text-2xl">
+                      Back this project
+                    </div>
+                  </div>
+                </a>
               </div>
+              
 
               <div>
                 <div className="max-w-96 h-64 relative m-auto">
