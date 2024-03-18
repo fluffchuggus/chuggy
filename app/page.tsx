@@ -2,10 +2,13 @@ import Image from "next/image";
 import CartmanBanner from "/public/cartman-banner.png"
 import ThePlan from "/public/plan.png"
 import RedskinsBanner from "/public/redskins-banner.jpeg"
+import Script from 'next/script'
 
 export default function Home() {
+  
   return (
     <main className="flex flex-col items-center justify-between sm:p-12 p-4 text-black">
+      <Script src="https://player.vimeo.com/api/player.js"></Script>
       <div className="text-4xl sm:py-12 py-6">
         Washington Redskins Startup Company
       </div>
@@ -20,7 +23,7 @@ export default function Home() {
                   left:0,
                   width:"100%",
                   height:"100%"
-                  }} title="redskins-trailer"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                  }} title="redskins-trailer"></iframe></div>
               </div>
               <div className="flex flex-row sm:gap-3 gap-1 font-semibold justify-end">
                 <div>
